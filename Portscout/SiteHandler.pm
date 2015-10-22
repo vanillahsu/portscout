@@ -31,6 +31,15 @@ package Portscout::SiteHandler;
 use XML::XPath;
 use XML::XPath::XMLParser;
 
+use Portscout::SiteHandler::Bitbucket;
+use Portscout::SiteHandler::CPAN;
+use Portscout::SiteHandler::GitHub;
+use Portscout::SiteHandler::Hackage;
+use Portscout::SiteHandler::Mozilla;
+use Portscout::SiteHandler::NPM;
+use Portscout::SiteHandler::Pear;
+use Portscout::SiteHandler::Pecl;
+use Portscout::SiteHandler::PyPI;
 use Portscout::SiteHandler::SourceForge;
 
 use strict;
